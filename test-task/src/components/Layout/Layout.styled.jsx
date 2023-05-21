@@ -8,19 +8,19 @@ export const Header = styled.nav`
     margin-right: -15px;
     padding: 15px;
     gap: 30px;
-    background-color: #2d690e;
+    background-color: #e1fa00;
     color: #EBD8FF;
-    border: none;
+    border-bottom: 1px solid #040640;
 `;
 
 export const StyledNavLink = styled(NavLink)`
     font-size: 35px;
     font-weight: bold;
-    color: #EBD8FF;
+    color: #373737;
     text-decoration: none;
 
     &.active {
         color: #5CD3A8;
-        border-bottom: 1px solid #5CD3A8;
+        border-bottom: 1px solid #040640;
     }
 `;

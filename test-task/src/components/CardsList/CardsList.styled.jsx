@@ -14,21 +14,23 @@ export const PaginationButtons = styled.div`
 `
 
 export const Button = styled.button`
-    height: 30px;
-    width: 120px;
+    cursor: pointer;
+    height: 50px;
+    width: 196px;
     border-radius: 10px;
     border: none;
-    background-color: #EBD8FF;
+    color: #e1fa00;
+    background-color: #040640;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 
     .isDisable:hover {
-        background-color: #EBD8FF;
+        background-color: #2a4bf5;
     }
 
     &:hover {
-        background-color: ${props => (props.disabled ? '#EBD8FF' : '#5CD3A8')};
+        background-color: ${props => (props.disabled ? '#82827d' : '#2a4bf5')};
     }
 `
 
