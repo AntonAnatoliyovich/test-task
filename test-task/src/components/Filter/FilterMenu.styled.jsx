@@ -31,7 +31,7 @@ export const Selector = styled.li`
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
     transition-duration: 250ms;
     &:hover {
-        background-color: #5CD3A8;
+        background-color: #373737;
         cursor: pointer;
     }
 `

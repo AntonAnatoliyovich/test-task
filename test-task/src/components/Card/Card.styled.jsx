@@ -68,5 +68,5 @@ export const InformationContainer = styled.div`
 `
 
 export const InformationDetails = styled.p`
-    color: ${props => (props.name ? '#5CD3A8' : '#EBD8FF')}
+    color: ${props => (props.name ? '#040640' : '#EBD8FF')}
 `

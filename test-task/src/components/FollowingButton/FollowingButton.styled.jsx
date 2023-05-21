@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
     width: 196px;
     height: 50px;
-    background-color: ${props => (props.following ? '#5CD3A8' : '#EBD8FF')};
+    background-color: ${props => (props.following ? '#040640' : '#e1fa00')};
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
     border-radius: 10.3108px;
     border: none;
@@ -16,6 +16,7 @@ export const Button = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: ${props => (props.following ? '#EBD8FF' : '#5CD3A8' )};
+        background-color: ${props => (props.following ? '#e1fa00' : '#040640' )};
+        color: #e1fa00;
     }
 `
