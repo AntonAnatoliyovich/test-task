@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom"
+import { lazy } from "react"
+import { Layout } from "components/Layout/Layout";
+import { GlobalStyle } from "components/Styles/GlobalStyle";
+import { Container } from "components/Styles/Container";
+import { Navigate } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
-function App() {
+export const App = () => {
+  const HomePage = lazy(() => import('./pages/HomePage'));
+  const TweetsPage = lazy(() => import('./pages/TweetsPage'));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Container>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/tweets" element={<TweetsPage />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Route>
+      </Routes>
+      <GlobalStyle />
+      <Toaster/>
+    </Container>
+  )
 }
-
-export default App;
