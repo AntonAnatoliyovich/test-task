@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const FilterMenuContainer = styled.div`
+    cursor: pointer;
     position: absolute;
     right: 20px;
-    top: 60px;
+    top: 90px;
     z-index: 5;
     border-radius: 10px;
     background-color: #EBD8FF;

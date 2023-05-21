@@ -19,11 +19,11 @@ export const FilterMenu = () => {
     
     return (
         <FilterMenuContainer onClick={toggleShowFilterSelect} isOpen={isOpen}>
-            <p>Filter</p>
+            <p>FILTER</p>
             {isOpen && <SelectorList>
-                <Selector onClick={onFilterSelect} id="">Show all</Selector>
-                <Selector onClick={onFilterSelect} id="true">Show following</Selector>
-                <Selector onClick={onFilterSelect} id="false">Show follow</Selector>
+                <Selector onClick={onFilterSelect} id="">SHOW ALL</Selector>
+                <Selector onClick={onFilterSelect} id="true">SHOW FOLLOWING</Selector>
+                <Selector onClick={onFilterSelect} id="false">SHOW FOLLOW</Selector>
             </SelectorList>}
         </FilterMenuContainer>
     )

@@ -4,8 +4,8 @@ const HomePage = () => {
 
     return (
         <HomePageSection>
-            <Title>Welcome to Tweets World</Title>
-            <HomePageLink to={'/tweets'}>Let's start enjoying!</HomePageLink>
+            <Title>Click the button below to see the tweets</Title>
+            <HomePageLink to={'/tweets'}>Let's start</HomePageLink>
         </HomePageSection>
     )
 }

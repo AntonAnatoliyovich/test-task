@@ -6,7 +6,7 @@ export const Layout = () => {
     return (
         <div>
             <Header>
-                <StyledNavLink to="/">Home</StyledNavLink>
+                <StyledNavLink to="/">Home page</StyledNavLink>
                 <StyledNavLink to="/tweets">Tweets</StyledNavLink>
             </Header>
             <Suspense fallback={<p>Loading...</p>}>

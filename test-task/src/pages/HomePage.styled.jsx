@@ -14,7 +14,7 @@ export const HomePageSection = styled.section`
 export const Title = styled.h1`
     font-size: 50px;
     margin-bottom: 50px;
-
+    color: #040640;
 `
 
 export const HomePageLink = styled(Link)`
@@ -22,12 +22,12 @@ export const HomePageLink = styled(Link)`
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    background-color: #EBD8FF;
+    background-color: #040640;
     text-decoration: none;
     margin: 0 auto;
     font-size: 20px;
     padding: 10px;
-    color: #373737;
+    color: #e1fa00;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
     transition-duration: 250ms;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
