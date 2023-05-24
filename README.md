@@ -4,7 +4,7 @@
 Follow та Following
 Загальний вигляд картки у двох станах - Follow та Following
 
-![Image alt](https://github.com/{AntonAnatoliyovich}/{test-task}/raw/{main}/{src/images/readme-image-1.jpg}/image.png)
+![Image alt](https://github.com/AntonAnatoliyovich/test-task/blob/main/src/images/readme-image-1.jpg)
 
 Критерії виконання
 Верстка фіксована в рх, семантична та валідна.
@@ -34,7 +34,7 @@ Follow та Following
 
 Follow та Following
 
-![Image alt](https://github.com/AntonAnatoliyovich/test-task/blob/main/src/images/readme-image-1.jpg)
+![Image alt](https://github.com/AntonAnatoliyovich/test-task/blob/main/src/images/readme-image-2.jpg)
 
 Макет: https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1
 
